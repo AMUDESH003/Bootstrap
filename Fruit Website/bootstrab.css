@@ -1,0 +1,174 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Nunito", sans-serif;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+ul li{
+    font-size: 20px;
+}
+.Mycarousel{
+width: 100%;
+height: 650vh;
+
+}
+.carousel-inner{
+width: 100%;
+height: 750px;
+}
+#Mycarousel .carousel-inner::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    
+}
+.carousel-caption{
+    top: 265px;
+}
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 750px;
+    overflow: hidden;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 20px black;
+}
+.carousel-caption p{
+    font-size: 20px;
+    text-shadow: 2px 2px 20px black;
+    
+}
+#About .row{
+    padding-top: 170px;
+}
+#About .row h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.about1{
+    padding-top: 85px;
+    padding-left: 50px;
+}
+#About img{
+    width: 520px;
+    height: 480px;
+}
+#Services .services{
+    padding-top: 100px;
+}
+#Services .services h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+#Services .services p{
+    font-size: 17px;
+}
+#Services .card{
+    width: 350px;
+    height: 400px;
+}
+.card i{
+    font-size: 70px;
+}
+.card p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#Portfolio .portfolio{
+    padding-top: 100px;
+}
+#Portfolio .portfolio h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+#Portfolio .portfolio p{
+    font-size: 17px;
+}
+#carouselExampleAutoplaying{
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+}
+#Portfolio .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 450px;
+    overflow: hidden;
+}
+#carouselExampleAutoplaying1{
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+}
+#carouselExampleAutoplaying2{
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+}
+#Team{
+padding-top: 100px;
+}
+.socials i{
+    font-size: 30px;
+    
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.card h5{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.card-group .card {
+    width: 100px;
+    justify-content: center;
+    padding-top: 20px;
+    height: 500px;
+    
+}
+.card-group .card img{
+    width: 200px;
+    height: 200px; 
+}
+#Contact{
+    padding-top: 30px;
+    }
+.form-group{
+    padding: 5px;    
+}
+.form-group label{
+       padding: 10px;
+}
+form button {
+    width: 200px;
+    margin: 0px 8px;
+    background-color: green;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+
