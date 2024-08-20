@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momos Kitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="/Assets/pngfind.com-iphone-camera-icon-png-4941182.png" alt="" width="30px" height="30px">
+                    Momos Kitchen</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                    aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Branches">Branches</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1 class="card-title">Momos Kitchen</h1>
+            <p class="card-text">Sense of taste feels like home style with mouth watering yummy</p>
+        </section>
+        <section id="About">
+            <div class="container-fluid sm">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-7 col-12 my-5">
+                        <img src="https://t4.ftcdn.net/jpg/06/49/25/27/360_F_649252736_LK6ign50vHZicrNR6Fe2mSpmPDNupx6Y.jpg"
+                            alt="moms" style="width: 600px; height: 500px;"
+                            class="rounded-circle d-flex align-items-center justfiy-content-center m-5 p-5">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
+                        <h1>About Us</h1>
+                        <p>Tasty Momos was Established in the year 2023. Get Customized food menus with affordable price
+                            list. From north indian to south indian food menus and dishes, we deliver at its best
+                            quality taste with soul touched taste. We make your day more delighted with our tasty,
+                            delicious food services. Book Veg, Non-veg Buffet for lunch, dinner at cheap price. Our food
+                            and recipe varies according to the event and the customer's choice. We plan recipes within
+                            your budget and ensure that we deliver the tastiest dishes on your special occasion. Our
+                            clients can avail a wide range of recipes with rich taste and each dish is prepared by the
+                            most adroit cooks of our organization. We have earned accolades from our clients for
+                            providing efficient and reliable catering services.Its name has become synonymous with
+                            exclusive, high-quality and wholesome Vegetarian and Non-Vegetarian foods, including
+                            Chettinad, Tandoor, North Indian dishes, and Chinese items.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Products">
+            <div class="container p-3">
+                <h1 class="title text-center my-5">Our Products</h1>
+                <div class="row pl-5 pr-5">
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://passion2cook.com/wp-content/uploads/2023/03/paneer-momos-1.jpg" alt=""
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Veg Momos</h5>
+                                <p>₹ 70 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-right">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://www.spiceupthecurry.com/wp-content/uploads/2017/04/veg-momos-recipe-13.jpg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">cauliflower Momos</h5>
+                                <p>₹ 75 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://3.bp.blogspot.com/-LziwlvePWBo/XIpaBGImvdI/AAAAAAAAP6M/opTS_OeBuGYebnSH-AXR5vOxJy9a9q1qgCLcBGAs/s1600/Momo_4.jpg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Paneer Momos</h5>
+                                <p>₹ 85 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://cdn.mygingergarlickitchen.com/images/800px/800px-veg-momos-recipe-5.jpg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Mushroom Momos</h5>
+                                <p>₹ 85 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pl-5 pr-5">
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://butfirstchai.com/wp-content/uploads/2022/08/Meat_Momos_05.jpg" alt=""
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Cheese Momos</h5>
+                                <p>₹ 85 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://ontheflame.com/wp-content/uploads/2022/12/DSC_0206-768x1024.jpg" alt=""
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Fried Momos</h5>
+                                <p>₹ 90 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2TbNsL2zS099rmZiAF9VQDStFieUX4ZgGx2uWoNYWgUESw0kQEkdjq6-U4zHKLSUkFuxBN-xW1WPRWt6c87Mq7de-rIaNJPxfbptVqfNC4zZpw_61iFvPpX8C5JjUpco9arUTN2_Ail3owVAnJZWNBxM5j0SN3OPGt2Es-ZjbLPoOqsyftf3uDT27/w240-h320/IMG_20220723_185625.webp"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Tandoori Momos</h5>
+                                <p>₹ 100 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://img.freepik.com/premium-photo/veg-crispy-kurkure-momos-with-chutney-top-view-generative-ai_802140-412.jpg?w=360"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Kurkure Momos</h5>
+                                <p>₹ 110 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pl-5 pr-5">
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://recipes.net/wp-content/uploads/2023/07/chicken-momos-with-nepalese-roasted-tomato-chutney_f1606f3c408967ba30be7bca1a885349.jpeg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Chicken Momos</h5>
+                                <p>₹ 120 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://imgmedia.lbb.in/media/2019/03/5c9c4badc394967ce2d2af77_1553746861109.jpg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Prawn Momos</h5>
+                                <p>₹ 130 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://images.foodmento.com/U3P10347F38981-1503799845-f9e.jpg" alt=""
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Beef Momos</h5>
+                                <p>₹ 100 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-4">
+                        <div class="card">
+                            <img src="https://www.cookwithmanali.com/wp-content/uploads/2021/08/Schezwan-Paneer-Momos-500x500.jpg"
+                                alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Schezwan Momos</h5>
+                                <p>₹ 120 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></p>
+                                <a href="#" class="btn btn-primary text-center">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Branches">
+            <div class="container p-3">
+                <h1 class="title text-center my-5">Our Branches</h1>
+                <div class="row pl-5 pr-5 text-center">
+                    <div class="col-4 p-5">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=perambur%20barracks%20road&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Perambur</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                    <div class="col-4 p-5">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Jambazar,%20Triplicane,%20Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Triplicane</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                    <div class="col-4 p-5">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=SECOND%20LINE%20BEACH%20ROAD,%20%20Parrys,%20Chennai,%20Tamil%20Nadu%20600001&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Parrys</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                </div>
+                <div class="row pl-5 pr-5 text-center">
+                    <div class="col-4 p-5">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Vanniyar%20St,%20Bharathi%20Nagar,%20Porur,%20Chennai,%20Tamil%20Nadu%20600125&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Porur</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                    <div class="col-4 p-5 text-center border-radias 50">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Velachery%20Main%20Rd,%20Indira%20Gandhi%20Nagar,%20Velachery,&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Velachery</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                    <div class="col-4 p-5 text-center">
+                        <iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Great%20Southern%20Trunk%20Rd,%20Arcot%20Rd,%20Vadapalani,%20Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <h5 class="card-body text-center">Vadapalani</h5>
+                        <a href="#" class="btn btn-primary btn-sm text-center">View Address</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="Contact">
+            <div class="container box">
+                <h1 class="title text-center my-5">Contact Us</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 mb-5">
+                        <img src="https://img.freepik.com/free-photo/view-delicious-dumplings_23-2150777769.jpg" alt=""
+                            class="img-fluid" width="700px" height="200px">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <form action="" method="post">
+                            <div class="form-group mb-2">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" class="form-control"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="name">Leave us a message</label>
+                                <textarea name="message" id="message" class="form-control" required></textarea>
+                            </div>
+                            <button class="btn btn-primary">Submit</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy2024 | Design by AMUDESH | All Right Reserved.</p>
+        </footer>
+        <section id="Contact">
+            <div class="container p-3">
+                <h1 class="title text-center my-5">Contact Us</h1>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="/" method="post">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="name">First Name</label>
+                                                <input type="text" name="name" id="name" class="form-control"
+                                                    placeholder="Enter your first name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="name">Last Name</label>
+                                                <input type="text" name="name" id="name" class="form-control"
+                                                    placeholder="Enter your last name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" class="form-control"
+                                                    placeholder="Enter your email" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="mobile">Mobile No</label>
+                                                <input type="number" name="mobile" id="mobile" class="form-control"
+                                                    placeholder="+91 12345 67890" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="password">Set Password</label>
+                                                <input type="password" name="password" id="password" class="form-control"
+                                                    placeholder="set your password" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="Confirm-password">Confirm Password</label>
+                                                <input type="password" name="Confirm-password" id="Confirm-password" class="form-control"
+                                                    placeholder="confirm your password" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="terms" class="form-check-input">
+                                            <label for="terms" class="form-check-label">I agress to terms and conditions</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
