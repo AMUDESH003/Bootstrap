@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    padding: 5px 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+#mynavbar ul li{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #e5e5e5;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('/Assets/1000_F_355081803_33Qts39BVY2Ip94EQiriMNbEhRxF6ph0.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 90px;
+    /* position: absolute;
+    right: 2%;
+    top: 22%; */
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 3px whitesmoke,
+                 0px 2px 0px whitesmoke,
+                 0px 3px 0px whitesmoke;
+}
+#home p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+    font-style: italic;
+}
+#About{
+    background-color: rgba(255, 99, 71, 0.897);
+}
+#About h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+   
+}
+#About p{
+    color: white;
+    font-size: 18px;
+}
+#Products .card img{
+    width: 250px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: 15px;
+
+}
+#Products .card a{
+    align-items: right;
+}
+#Products .card{
+    width: 280px;
+    height: 415px;
+    background-color: #e5e5e5 ;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+    inset 4px 4px 10px white;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    transition: .2s;
+}
+#Products .card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+    inset -4px -4px 10px white;
+    transition: .2s;
+}
+#Products .card p{
+    font-weight: bold;
+    font-size: 18px;
+}
+#Branches iframe{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+    inset 4px 4px 10px white;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#Contact img{
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+    inset 4px 4px 10px white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+ padding: 5px;
+ 
+}
+.form-group label{
+    padding: 10px;
+   }
+form button {
+    margin: 0px 8px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+.checked {
+    color: orange;
+  }
