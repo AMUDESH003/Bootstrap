@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/boostrab/bootstrab.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="/audio/fruits/icon.jfif" alt="" width="45px" height="45px"><span>
+            Fruity </span>Fiesta</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+          aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Services">Benefit</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Portfolio">shop deatils</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Team">service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="Home">
+      <div id="Mycarousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#Mycarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/030/520/201/small_2x/juice-and-healthy-fruits-photo.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta. <br> with us</h5>
+              <p></p>
+              <p><a href="https://www.gamezop.com/game/mKZZW9NXW/Fruity-Fiesta?int-nav=1" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/fruit-splash-wallpapers-hd-wallpapers_274326-695.jpg"
+              class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://w0.peakpx.com/wallpaper/462/884/HD-wallpaper-juice-fresh-fruits-water-fruits-juicy-splash.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta. <br> with us</h5>
+              <p></p>
+              <p><a href="" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/8lJB7ucX8jU/maxresdefault.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta. <br> with us</h5>
+              <p></p>
+              <p><a href="" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/036/067/885/non_2x/ai-generated-delicious-colored-fruits-on-colored-background-wallpaper-of-fruits-sliced-fruits-on-abstract-background-fruits-background-photo.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta.<br> with us</h5>
+              <p> </p>
+              <p><a href="" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/036/068/122/non_2x/ai-generated-delicious-colored-fruits-on-colored-background-wallpaper-of-fruits-sliced-fruits-on-abstract-background-fruits-background-photo.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta. <br> with us</h5>
+              <p></p>
+              <p><a href="" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://getwallpapers.com/wallpaper/full/5/d/9/1019177-fruit-wallpaper-1920x1080-laptop.jpg"
+              class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fruity Fiesta. <br> with us</h5>
+              <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals. They also contain
+                fibre. There are many varieties of fruit and vegetables available and many ways to prepare, cook and
+                serve them. A diet high in fruit and vegetables can help protect you against cancer, diabetes and heart
+                disease.</p>
+              <p><a href="" class="btn btn-warning">Learn More</a></p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Mycarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Mycarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+    <section id="About">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLD2VXOt7eKmpbj0-hXbUQFSu3lfyrjHQ8A&s"
+              alt="">
+          </div>
+          <div class="col-lg-6 col-md-8 col-12">
+            <div class="about1 text-center">
+              <h1>We offer the <br> quality fruit.</h1>
+              <p>Fresh taste, straight from nature.
+                Deliciously juicy, naturally sweet.
+                Indulge in the goodness of fruity flavors.
+                Nature's candy at its finest.
+                Refreshing and nutritious, the perfect snack.
+                Sweetness in every bite, bursting with flavor.
+                Wholesome goodness in every fruit-filled moment.</p>
+              <a href="" class="btn btn-warning">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Services" class="sevices section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-12">
+            <div class="services text-center">
+              <h2>fruit-benifit</h2>
+              <p>n a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the
+                seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers,
+                and (in their shells) acorns and almonds, are all technically fruits.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-4 p-4">
+            <div class="card">
+              <div class="card-body text-center bg-success">
+                <i class="bi bi-buildings text-white"></i>
+                <h2 class="card-title text-center text-white">fruit-benifit</h2>
+                <p class="card-text text-center text-white"> Fruit and vegetables are a good source of vitamins and
+                  minerals, including folate, vitamin C and potassium. They're an excellent source of dietary fibre,
+                  which can help to maintain a healthy gut and prevent constipation and other digestion problems. A diet
+                  high in fibre can also reduce your risk of bowel cancer.</P>
+                <a href="#" class="btn btn-warning text-right">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 p-4">
+            <div class="card">
+              <div class="card-body text-center bg-secondary">
+                <i class="bi bi-building-fill-check text-white"></i>
+                <h2 class="card-title text-center text-white">fruit-nutrients</h2>
+                <p class="card-text text-center text-white">Vitamins and minerals in fruit and vegetables<br>
+                  1 vitamin A (beta-carotene)<br>
+                  2 vitamin C.<br>
+                  3 vitamin E.<br>
+                  4 magnesium.<br>
+                  5 zinc.<br>
+                  6 phosphorous.<br>
+                  7 folic acid..</P>
+                <a href="#" class="btn btn-warning text-right">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-4 p-4">
+            <div class="card">
+              <div class="card-body text-center bg-primary">
+                <i class="bi bi-box-seam-fill text-white"></i>
+                <h2 class="card-title text-center text-white">medical source</h2>
+                <p class="card-text text-center text-white">Fruits are an excellent source of essential vitamins and
+                  minerals, and they are high in fiber. <br>Fruits also provide a wide range of health-boosting
+                  antioxidants, including flavonoids..</P><br><br><br>
+                <a href="#" class="btn btn-warning text-right">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="Portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-12">
+            <div class="portfolio text-center">
+              <h2>Branch deatils</h2>
+              <p>Among these are greengrocers and fruiterers, some of whom are described as "fruit and vegetable
+                merchants". There is a certain goodwill attaching to the business of a fruiterer.Among these are
+                greengrocers and fruiterers, some of whom are described as "fruit and vegetable merchants". There is a
+                certain goodwill attaching to the business of a fruiterer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src=""
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/139496979/photo/assortment-of-fruits-and-vegetables-background.jpg?s=612x612&w=0&k=20&c=Tns4-67GV8LoJoN9YYwRM9PhpYKQ4kfbWg70_NJc9L8="
+                    class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/139496979/photo/assortment-of-fruits-and-vegetables-background.jpg?s=612x612&w=0&k=20&c=Tns4-67GV8LoJoN9YYwRM9PhpYKQ4kfbWg70_NJc9L8="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1218693828/photo/wooden-bowl-with-mixed-nuts-on-rustic-table-top-view-healthy-food-and-snack.jpg?s=612x612&w=0&k=20&c=89-ko7nwlcqM6HPvwaQ3tZus4apArtwHkFAB0IxPQpo="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/173255460/photo/assortment-of-fruits.jpg?s=612x612&w=0&k=20&c=9FCZJRCXbLH7KGVixrpQxl3GVGXepb2pXqkz-MkzDQM="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1409466518/photo/happy-woman-eating-slice-of-fresh-fruit.jpg?s=612x612&w=0&k=20&c=w-hDrqc0mDn2qKe3lqGU7h7uqEJJ8wpQaAfVIlkLMA8="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1434558707/photo/delicious-rainbow-fruits.jpg?s=612x612&w=0&k=20&c=-qLINv7XkNuKMSAGihJgisCvVrM-Eb0jg6T1Pi7T2_A="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZyQ5HFGRikrMCUKuv7eg-At2NPWHbWoJyfg&s"
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I="
+                    class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1194994154/photo/an-asian-woman-holding-and-eating-a-fresh-mixed-fruits-on-skewers.jpg?s=612x612&w=0&k=20&c=-YWC6ciFOxl0VC2toThRWQDYIjPZvtqMM2LsZXXCAqA="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/157743163/photo/mixed-nuts.jpg?s=612x612&w=0&k=20&c=Rmp4RDyrFpCw6HNfhswLriyxmsAHS4Bdiku7_bA5kUc="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1141710306/photo/assortment-of-different-dried-fruits-in-bowls.jpg?s=612x612&w=0&k=20&c=n409yaNO6kwgXX9GpRGZeFZT8Cmu9nB60pDvGy9NuWE="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1127746968/photo/assorted-nuts-on-white-dry-fruits-mix-nuts-almond-cashew-pistachio-raisin.jpg?s=612x612&w=0&k=20&c=XiRiq8ND18OqeTboci7vRCEamN_oQIXVh3cwxbxLKQk="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNkFzX4vdVa4Tuz-wXb--7WHgCPBkxbNuG2A&s"
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/92367660/photo/fruit-basket.jpg?s=612x612&w=0&k=20&c=FGQ0K8Cp3lKtm2LPah8vcMb_1a45qTKLeldPk96M_HY="
+                    class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/92367660/photo/fruit-basket.jpg?s=612x612&w=0&k=20&c=FGQ0K8Cp3lKtm2LPah8vcMb_1a45qTKLeldPk96M_HY="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/476953636/photo/fresh-fruit-salad.jpg?s=612x612&w=0&k=20&c=_rYyjnypBudzbKPt2xGtDZD7wYmaW8QUTdTG1aXX0ng="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/92367660/photo/fruit-basket.jpg?s=612x612&w=0&k=20&c=FGQ0K8Cp3lKtm2LPah8vcMb_1a45qTKLeldPk96M_HY="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/533350016/photo/fruit-salad.jpg?s=612x612&w=0&k=20&c=VtINQON_wLwuRQphEuFmQO5SbPTC4f7g4Y-jFFHCa3A="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.istockphoto.com/id/1273378551/photo/set-of-summer-fruits-and-berries-in-wooden-serving.jpg?s=612x612&w=0&k=20&c=XtJFQDgpV_AsG3aFzo3FVN2pmbey7h0jWHMzlHWJ5Kk="
+                    class="d-block img-fluid w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-12">
+            <div class="portfolio text-center">
+              <h2>service</h2>
+              <p>The Fruit & Veg assistant effectively handles, displays and rotates stock in the fruit & veg department
+                and meets customers' needs with excellent customer service..</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card text-center">
+            <img
+              src=""
+              class="card-img-top img-fluid rounded-circle mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">patti ma</h5>
+              <p class="card-text">A Fruit And Vegetables Shop Manager is a responsible and organized professional who
+                oversees the daily operations of a fruit and vegetables grocery store.</p>
+              <footer>
+                <p class="socials">
+                  <a href=""><i class="bi bi-twitter text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-facebook text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-linkedin text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-instagram text dark mx-1"></i></a>
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img
+              src=""
+              class="card-img-top img-fluid rounded-circle mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Raju</h5>
+              <p class="card-text">A Fruit And Vegetables Shop Manager is a responsible and organized professional who
+                oversees the daily operations of a fruit and vegetables grocery store.</p>
+              <footer>
+                <p class="socials">
+                  <a href=""><i class="bi bi-twitter text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-facebook text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-linkedin text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-instagram text dark mx-1"></i></a>
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img
+              src=""
+              class="card-img-top img-fluid rounded-circle mx-auto d-block" alt="...">
+            <div class="card-body rounded-circle">
+              <h5 class="card-title">ramu</h5>
+              <p class="card-text">A Fruit And Vegetables Shop Manager is a responsible and organized professional who
+                oversees the daily operations of a fruit and vegetables grocery store.</p>
+              <footer>
+                <p class="socials">
+                  <a href=""><i class="bi bi-twitter text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-facebook text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-linkedin text dark mx-1"></i></a>
+                  <a href=""><i class="bi bi-instagram text dark mx-1"></i></a>
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section id="Contact">
+  <div class="container p-3">
+    <h1 class="title text-center my-5">Contact Us</h1>
+    <div class="row ">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <form action="" method="post" >
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" name="name" id="name" class="form-control"
+                      placeholder="Enter your first name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email"
+                      required>
+                  </div>
+                  <div class="form-group">
+                    <label for="mobile">Mobile No</label>
+                    <input type="number" name="mobile" id="mobile" class="form-control"
+                      placeholder="+91 12345 67890" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Location</label>
+                    <input type="text" name="name" id="name" class="form-control"
+                      placeholder="Enter your site location" required>
+                  </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                  <label for="CityDataList" class="form-label">Select City</label>
+                  <input class="form-control" list="datalistOptions" id="CityDataList"
+                    placeholder="Type to search...">
+                  <datalist id="datalistOptions">
+                    <option value="North Chennai">
+                    <option value="South Chennai">
+                    <option value="Bangalore">
+                    <option value="Trivandrum">
+                    <option value="Mumbai">
+                    <option value="Hyderabad">
+                  </datalist>
+                  <div class="form-group mb-2">
+                    <label for="name">Leave us a message</label>
+                    <textarea name="message" id="message" cols="30" rows="9" class="form-control"
+                      required></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group text-center d-flex justify-content-center">
+                <div class="form-check">
+                  <input type="checkbox" id="terms" class="form-check-input">
+                  <label for="terms" class="form-check-label">I agress to terms and conditions</label>
+                </div>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-warning me-md-2" type="button">Submit</button>
+                <button> 
+                <a href="https://www.gamezop.com/game/mKZZW9NXW/Fruity-Fiesta?int-nav=1" class="btn btn-success me-md-2" type="button">Game</a>
+              </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>&copy2024| All Right Reserved</p>
+</footer>
+</main>
+</body>
