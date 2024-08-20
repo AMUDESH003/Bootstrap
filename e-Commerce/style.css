@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(153, 145, 145);
+    font-family: "Poppins", sans-serif;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.Topic1 {
+    padding-left: 32px;
+    padding-right: 50px;
+}
+.Topic1 a img{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.Topic2 {
+    font-size: 20px;
+    color: black;
+}
+
+.Topic2 a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    display: inline;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: orangered;
+}
+
+.Topic3 {
+    padding-right: 50px;
+}
+
+.Topic3 p {
+    display: inline;
+    padding: 10px;
+}
+
+.Topic4 {
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.topi5 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi5 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic5>div.items {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic5 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic5>div h4 {
+    font-size: 18px;
+}
+
+.Topic5>div h4,
+p {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.Topic5>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic5>div s {
+    font-weight: normal;
+}
+
+.Topic5>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.Topic6 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.items1 {
+    grid-column: 1;
+    grid-row: 1/ span 2;
+}
+
+.items2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.items3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.Topic6 img {
+    width: 450px;
+    height: 251px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+}
+
+.items1 img {
+    width: 780px;
+    height: 565px;
+    cursor: pointer;
+}
+
+.Topic5>div.items1,
+.items2,
+.items3 {
+    padding-left: 30px;
+}
+
+.img1 {
+    position: relative;
+    font-size: 22px;
+    bottom: 500px;
+    left: 370px;
+    color: whitesmoke;
+    text-shadow: 1px 1px;
+}
+
+.img2 {
+    position: relative;
+    font-size: 22px;
+    bottom: 150px;
+    left: 70px;
+    color: whitesmoke;
+    text-shadow: 1px 1px;
+}
+
+.img3 {
+    position: relative;
+    font-size: 22px;
+    bottom: 170px;
+    left: 140px;
+    color: whitesmoke;
+    text-shadow: 1px 1px;
+}
+
+.img1 p {
+    position: absolute;
+    top: 200px;
+    left: 190px;
+    font-size: 18px;
+}
+
+.img2 p {
+    position: absolute;
+    top: 60px;
+    font-size: 18px;
+}
+
+.img3 p {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    font-size: 18px;
+}
+
+.Topic6 a {
+    text-decoration: none;
+    color: rgb(27, 28, 29);
+}
+
+.topi7 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi7 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic7>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic7 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic7>div h4 {
+    font-size: 18px;
+}
+
+.Topic7>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic7>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic7>div s {
+    font-weight: normal;
+}
+
+.Topic7>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.topi8 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi8 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic8 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic8>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic8 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic8>div h4 {
+    font-size: 18px;
+}
+
+.Topic8>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic8>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic8>div s {
+    font-weight: normal;
+}
+
+.Topic8>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.topi9 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi9 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic9>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic9 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic9>div h4 {
+    font-size: 18px;
+}
+
+.Topic9>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic9>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic9>div s {
+    font-weight: normal;
+}
+
+.Topic9>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.topi10 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi10 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic10>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic10 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic10>div h4 {
+    font-size: 18px;
+}
+
+.Topic10>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic10>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic10>div s {
+    font-weight: normal;
+}
+
+.Topic10>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.topi11 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi11 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic11 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic11>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic11 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic11>div h4 {
+    font-size: 18px;
+}
+
+.Topic11>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic11>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic11>div s {
+    font-weight: normal;
+}
+
+.Topic11>div b {
+    color: red;
+    font-weight: normal;
+}
+
+.topi12 {
+    padding: 80px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.topi12 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 13px;
+    color: black;
+}
+
+.Topic12 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Topic12>div.items a {
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+}
+
+.Topic12 img {
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.192);
+}
+
+.Topic12>div h4 {
+    font-size: 18px;
+}
+
+.Topic12>div h4,
+p {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.Topic12>div p {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.Topic12>div s {
+    font-weight: normal;
+}
+
+.Topic12>div b {
+    color: red;
+    font-weight: normal;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+footer h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+footer>div.app img {
+    width: 250px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.Containeer {
+    align-items: center;
+    padding: 10px;
+    color: dodgerblue;
+}
+
+.COD {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    color: tomato;
+}
+
+.COD div {
+    padding: 20px;
+}
+
+.icons a {
+    padding: 10px;
+    margin: 10px;
+}
+
+.foot h3 {
+    padding: 15px;
+}
+
+.back {
+    text-align: left;
+}
+
+.back a {
+    text-decoration: none;
+    color: rgb(214, 12, 12);
+}
+.red{
+    border: 5px solid black;
+    padding: 20px;
+    background-color: green;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+    text-align: left;
+}
+
+.con h2 {
+    font-size: 20px;
+    color: crimson;
+}
+
+.contain div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.con div {
+    padding: 8px;
+}
