@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title> online Shopping</title>
+    <link rel="icon" href="/Assets/pngegg (1).png">
+    <link rel="stylesheet" href="/credo/style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div class="Topic1">
+            <a href=""><img src="/audio/dress pic/logo.jfif" alt="Logo" width="140px" height="100px"></a>
+        </div>
+        <div class="Topic2">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+            <a href="">Shop</a>
+            <a href="">Visit</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="Topic3">
+            <p><a href=""><img src="/audio/dress pic/i1.png" alt="" width="18px" height="18px"></a></p>
+            <p><a href=""><img src="/audio/dress pic/i2.jfif" alt="" width="18px" height="18px"></a></p>
+            <p><a href=""><img src="/audio/dress pic/i3.png" alt="" width="18px" height="18px"></a></p>
+            <p><a href=""><img src="/audio/dress pic/i4.jfif" alt="" width="18px" height="18px"></a></p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="Topic4">
+                <a href=""><img src="/audio/dress pic/second logo.webp" alt="Logo" width="1360px"
+                        height="586px"></a>
+            </div>
+        </section>
+        <section class="topi5">
+            <p>Featured Products
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic5">
+                <div class="items"><img src="/audio/dress pic/t1.jfif" alt="" width="300px" height="360px">
+                    <h4>t-shirt</h4>
+                    <p>₹ 349 <s>₹ 899</s> <b>₹ 550 off</b></p>
+                </div>
+                <div class="items"><img src="/audio/dress pic/t2.jfif" alt="" width="300px" height="360px">
+                    <h4>t-shirt</h4>
+                    <p>₹ 399 <s>₹ 899</s> <b>₹ 500 off</b></p>
+                </div>
+                <div class="items"><img src="/audio/dress pic/t3.jfif" alt="" width="300px"
+                        height="360px">
+                    <h4>t-shirt</h4>
+                    <p>₹ 449 <s>₹ 999</s> <b>₹ 550 off</b></p>
+                </div>
+                <div class="items"><img src="/audio/dress pic/t4.jfif" alt="" width="300px"
+                        height="360px">
+                    <h4>t-shirt</h4>
+                    <p>₹ 449 <s>₹ 899</s> <b>₹ 450 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="Topic6">
+                <div class="items1"><img src="/audio/dress pic/a1.webp" alt=""><a href=""></a>
+                    <div class="img1">
+                        <h1>Cool Stylish collections</h1>
+                        <p><a href="">Shop Now &#8674</a></p>
+                    </div>
+                </div>
+                <div class="items2"><img src="/audio/dress pic/a2.jpg" alt="">
+                    <div class="img2">
+                        <h1>Trendy collections</h1>
+                        <p><a href="">Shop Now &#8674</a></p>
+                    </div>
+                </div>
+                <div class="items3"><img src="/audio/dress pic/a3.jfif" alt="">
+                    <div class="img3">
+                        <h1>Party Wear</h1>
+                        <p><a href="">Shop Now &#8674</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topi7">
+            <p>Latest New Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic7">
+                <div class="items"><a href=""><img src="/audio/dress pic/b1.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4> Shirt</h4>
+                    <p>₹ 949 <s>₹ 399</s> <b>₹ 530 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/b2.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4> shirt</h4>
+                    <p>₹ 549 <s>₹ 999</s> <b>₹ 560 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/b3.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>shirt</h4>
+                    <p>₹ 149 <s>₹ 599</s> <b>₹ 530 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/b4.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Shirt</h4>
+                    <p>₹ 149 <s>₹ 599</s> <b>₹ 530 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="topi8">
+            <p>Shirt Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic8">
+                <div class="items"><a href=""><img src="/audio/dress pic/c1.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>shirt</h4>
+                    <p>₹ 649 <s>₹ 1399</s> <b>₹ 700 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/c2.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Shirt</h4>
+                    <p>₹ 649 <s>₹ 1199</s> <b>₹ 650 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/c3.jfif"
+                            alt="" width="300px" height="360px"></a>
+                    <h4>Shirt</h4>
+                    <p>₹ 899 <s>₹ 1599</s> <b>₹ 700 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/c4.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4> Shirt Coral Sand</h4>
+                    <p>₹ 999 <s>₹ 1599</s> <b>₹ 600 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="topi9">
+            <p>Trouser Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic9">
+                <div class="items"><a href=""><img src="/audio/dress pic/d1.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4>Shirt-to me</h4>
+                    <p>₹ 849 <s>₹ 1699</s> <b>₹ 850 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/d2.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4>Shiret</h4>
+                    <p>₹ 949 <s>₹ 1799</s> <b>₹ 850 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/d3.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Shiret</h4>
+                    <p>₹ 899 <s>₹ 1699</s> <b>₹ 800 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/d4.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Solid color shirt</h4>
+                    <p>₹ 999 <s>₹ 1399</s> <b>₹ 400 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="topi10">
+            <p>Hoodie Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic10">
+                <div class="items"><a href=""><img src="/audio/dress pic/e1.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4>Hoodie</h4>
+                    <p>₹ 1199 <s>₹ 1999</s> <b>₹ 800 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/e2.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Hoodie</h4>
+                    <p>₹ 949 <s>₹ 1799</s> <b>₹ 850 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/e3.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4> Hoodie</h4>
+                    <p>₹ 999 <s>₹ 1899</s> <b>₹ 900 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/e4.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4>Hoodie</h4>
+                    <p>₹ 999 <s>₹ 1999</s> <b>₹ 1000 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="topi11">
+            <p>Casual Footware Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic11">
+                <div class="items"><a href=""><img src="/audio/dress pic/f1.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Footware</h4>
+                    <p>₹ 1299 <s>₹ 2499</s> <b>₹ 1200 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/f2.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Footware</h4>
+                    <p>₹ 1499 <s>₹ 2799</s> <b>₹ 1300 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/f3.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Footware</h4>
+                    <p>₹ 1399 <s>₹ 2699</s> <b>₹ 1300 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/f4.jfif" alt=""
+                            width="300px" height="360px"></a>
+                    <h4>Footware</h4>
+                    <p>₹ 1699 <s>₹ 3399</s> <b>₹ 1700 off</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="topi12">
+            <p>Winter Jacket Collections
+                <a href="">View All Products &#8674</a>
+            </p>
+            <div class="Topic12">
+                <div class="items"><a href=""><img src="/audio/dress pic/g1.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Winder jacket</h4>
+                    <p>₹ 1299 <s>₹ 2199</s> <b>₹ 900 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/g2.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Winter jacket</h4>
+                    <p>₹ 1299 <s>₹ 1999</s> <b>₹ 700 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/g3.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Winder jacket</h4>
+                    <p>₹ 1899 <s>₹ 2599</s> <b>₹ 700 off</b></p>
+                </div>
+                <div class="items"><a href=""><img src="/audio/dress pic/g4.jfif" alt="" width="300px"
+                            height="360px"></a>
+                    <h4>Winter jacket</h4>
+                    <p>₹ 2599 <s>₹ 3199</s> <b>₹ 500 off</b></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>Download Our Apps and Order a Online</h1>
+        <div class="app">
+            <p><a href="https://play.google.com/store/apps"><img src="/audio/dress pic/z2.png" alt="Playstore"></a>
+                <a href="https://www.apple.com/app-store/"><img src="/audio/dress pic/z1.jfif" alt="Applestore"></a>
+            </p>
+        </div>
+        <div class="COD">
+            <div><img src="/Assets/money.png" alt="Facebook" width="50" height="50">
+                <p>COD Available</p>
+            </div>
+            <div><img src="/Assets/exchange.png" alt="Facebook" width="50" height="50">
+                <p>Easy Returns for 30 Days</p>
+            </div>
+
+        </div>
+
+        <h2>We're Always Here to Help You 24/7</h2>
+        <h4>Our online help is available around-the-clock</h4>
+        <div class="contain">
+            <div class="con">
+                <div>
+                    <h2>NEED HELP</h2>
+                </div>
+                <div><a href="">Contact Us</a></div>
+                <div><a href="">Track Order</a></div>
+                <div><a href="">Returns & Refunds</a></div>
+                <div><a href="">FAQs</a></div>
+                <div><a href="">My Account</a></div>
+            </div>
+            <div class="con">
+                <div>
+                    <h2>COMPANY</h2>
+                </div>
+                <div><a href="">About Us</a></div>
+                <div><a href="">Careers</a></div>
+                <div><a href="">Community Initiatives</a></div>
+            </div>
+            <div class="con">
+                <div>
+                    <h2>MORE INFO</h2>
+                </div>
+                <div><a href="">T&C</a></div>
+                <div><a href="">Privacy Policy</a></div>
+                <div><a href="">Sitemap</a></div>
+            </div>
+            <div class="con">
+                <div>
+                    <h2>STORE NEAR ME</h2>
+                </div>
+                <div><a href=""> Chennai</a></div>
+                <div><a href="">7G Colony</a></div>
+                <div><a href="">india Gate</a></div>
+                <div><a href="">velachery</a></div>
+                <div><a href="">unisky</a></div>
+            </div>
+        </div>
+
+        <div class="Containeer">
+            <div class="foot">
+                <h3>Follow Us on</h3>
+                <div class="icons">
+                    <p><a href=""><img src="/audio/dress pic/z5.jfif" alt="Facebook" width="50" height="50"></a>
+                        <a href=""><img src="/audio/dress pic/z3.jfif" alt="instagram" width="50" height="50"></a>
+                        <a href=""><img src="/audio/dress pic/z4.png" alt="whatsapp" width="50" height="50"></a>
+                        <a href=""><img src="/audio/dress pic/z6.jfif" alt="x" width="50" height="50"></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="back"><a href="#">Back to Top</a></p>
+        <p class="red">&copy2024 | Design by AMUDESH | All Right Reserved.</p>
+
+    </footer>
+
+
+</body>
+
+</html>
